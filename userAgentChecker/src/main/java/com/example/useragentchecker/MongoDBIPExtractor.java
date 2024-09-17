@@ -20,13 +20,13 @@ public class MongoDBIPExtractor {
 
     public static void main(String[] args) {
         // MongoDB connection details
-        String username = "mongodb";
-        String password = "aelohDoch9yaegha";  // Replace with your actual password
-        String databaseName = "visitors";  // Replace with your actual database name
-        String collectionName = "visitors";  // Replace with your actual collection name
+        String username = "";
+        String password = "";  // Replace with your actual password
+        String databaseName = "";  // Replace with your actual database name
+        String collectionName = "";  // Replace with your actual collection name
         String authDatabase = "admin";  // The authentication database
-        String host = "149.28.44.179";
-        int port = 27017;
+        String host = "";
+        int port = 123; // Write yours;
 
         // Connection string with authentication
         String connectionString = String.format("mongodb://%s:%s@%s:%d/%s?authSource=%s",
